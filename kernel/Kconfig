@@ -384,7 +384,7 @@ menu "Work Queue Options"
 config SYSTEM_WORKQUEUE_STACK_SIZE
 	int "System workqueue stack size"
 	default 4096 if COVERAGE
-	default 1024
+	default 4096
 
 config SYSTEM_WORKQUEUE_PRIORITY
 	int "System workqueue priority"
