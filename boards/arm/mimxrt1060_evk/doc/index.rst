@@ -255,7 +255,6 @@ Build and flash applications as usual (see :ref:`build_an_application` and
 Configuring a Debug Probe
 =========================
 
-Test from Snell. 
 A debug probe is used for both flashing and debugging the board. This board is
 configured by default to use the :ref:`opensda-daplink-onboard-debug-probe`,
 however the :ref:`pyocd-debug-host-tools` do not yet support programming the
@@ -268,9 +267,11 @@ following debug probes instead.
 Install the :ref:`jlink-debug-host-tools` and make sure they are in your search
 path.
 
-Attach a J-Link 20-pin connector to J21. Check that jumpers J47 and J48 are
-**off** (they are on by default when boards ship from the factory) to ensure
-SWD signals are disconnected from the OpenSDA microcontroller.
+There are two options: the onboard debug circuit can be updated with Segger 
+J-Link firmware, or an external J-Link debug probe can be attached to the EVK.
+See :ref:'Using J-Link with MIMXRT1060-EVK or MIMXRT1064-EVK 
+<https://community.nxp.com/t5/i-MX-RT-Knowledge-Base/Using-J-Link-with-MIMXRT1060-EVK-or-MIMXRT1064-EVK/ta-p/1281149>'
+for more details.
 
 Configuring a Console
 =====================
