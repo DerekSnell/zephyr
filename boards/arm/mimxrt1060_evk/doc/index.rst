@@ -265,6 +265,8 @@ however the :ref:`pyocd-debug-host-tools` do not yet support programming the
 external flashes on this board so you must reconfigure the board for one of the
 following debug probes instead.
 
+.. _Using J-Link:
+
 Using J-Link
 ---------------------------------
 
