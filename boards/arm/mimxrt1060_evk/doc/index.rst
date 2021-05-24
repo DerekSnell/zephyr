@@ -255,6 +255,7 @@ Build and flash applications as usual (see :ref:`build_an_application` and
 Configuring a Debug Probe
 =========================
 
+Test from Snell. 
 A debug probe is used for both flashing and debugging the board. This board is
 configured by default to use the :ref:`opensda-daplink-onboard-debug-probe`,
 however the :ref:`pyocd-debug-host-tools` do not yet support programming the
