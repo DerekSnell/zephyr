@@ -269,9 +269,7 @@ path.
 
 There are two options: the onboard debug circuit can be updated with Segger 
 J-Link firmware, or an external J-Link debug probe can be attached to the EVK.
-See :ref:'Using J-Link with MIMXRT1060-EVK or MIMXRT1064-EVK 
-<https://community.nxp.com/t5/i-MX-RT-Knowledge-Base/Using-J-Link-with-MIMXRT1060-EVK-or-MIMXRT1064-EVK/ta-p/1281149>'
-for more details.
+See - `J-Link with MIMXRT1060-EVK`_ for more details.
 
 Configuring a Console
 =====================
@@ -375,3 +373,7 @@ steps:
 
 .. _i.MX RT1060 Reference Manual:
    https://www.nxp.com/webapp/Download?colCode=IMXRT1060RM
+
+.. _J-Link with MIMXRT1060-EVK:
+   https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/i.mx-applications-processors/i.mx-rt-series/i.mx-rt1060-crossover-processor-with-arm-cortex-m7-core:i.MX-RT1060
+
