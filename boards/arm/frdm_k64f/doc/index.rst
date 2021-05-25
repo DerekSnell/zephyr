@@ -80,6 +80,8 @@ The frdm_k64f board configuration supports the following hardware features:
 +-----------+------------+-------------------------------------+
 | ADC       | on-chip    | adc                                 |
 +-----------+------------+-------------------------------------+
+| DAC       | on-chip    | dac                                 |
++-----------+------------+-------------------------------------+
 | PWM       | on-chip    | pwm                                 |
 +-----------+------------+-------------------------------------+
 | ETHERNET  | on-chip    | ethernet                            |
@@ -97,6 +99,8 @@ The frdm_k64f board configuration supports the following hardware features:
 | CAN       | on-chip    | can                                 |
 +-----------+------------+-------------------------------------+
 | RTC       | on-chip    | rtc                                 |
++-----------+------------+-------------------------------------+
+| DMA       | on-chip    | dma                                 |
 +-----------+------------+-------------------------------------+
 
 The default configuration can be found in the defconfig file:
