@@ -265,7 +265,7 @@ however the :ref:`pyocd-debug-host-tools` do not yet support programming the
 external flashes on this board so you must reconfigure the board for one of the
 following debug probes instead.
 
-.. _Using J-Link:
+.. _Using J-Link RT1060:
 
 Using J-Link
 ---------------------------------
@@ -364,7 +364,7 @@ steps:
 
 If the west flash or debug commands fail, and the command hangs while executing 
 runners.jlink, confirm the J-Link debug probe is configured, powered, and
-connected to the EVK properly.  See :ref:`Using J-Link` for more
+connected to the EVK properly.  See :ref:`Using J-Link RT1060` for more
 details.
 
 .. _MIMXRT1060-EVK Website:
